@@ -1,7 +1,7 @@
 from server import update
 
 #minimal plugin
-target_plugin='pong'
+target_plugin='ping'
 
 def setup():
     update(target_plugin,1)
