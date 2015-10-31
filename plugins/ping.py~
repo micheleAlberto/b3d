@@ -1,0 +1,17 @@
+from server import update
+
+#minimal plugin
+
+def setup():
+    
+    return __name__
+def handle(data,status):
+    target_plugin='pong'
+    next=
+    print
+    'data'=
+    update(plugin
+    #data is a json object
+    pass
+def clean():
+    pass

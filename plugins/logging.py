@@ -5,7 +5,7 @@
 
 def setup():
     pass
-def handle(data):
+def handle(data,status):
     print data
     #data is a json object
     pass

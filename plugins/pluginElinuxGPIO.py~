@@ -40,5 +40,5 @@ def setup():
 
     pass
 
-def handle(data,status):
+def handle(data):
     pass

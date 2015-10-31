@@ -14,9 +14,9 @@ def stop():
     plugins={}
     
 
-def dispatch(plugin_name,data,status):
+def dispatch(plugin_name,data):
     if plugin_name in plugins:
-        return plugins[plugin_name].handle(data,status)
+        return plugins[plugin_name].handle(data)
     else:
         return plugin_not_found(plugin_name)
     

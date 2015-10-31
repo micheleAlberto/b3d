@@ -3,7 +3,7 @@
 
 def setup():
     pass
-def handle(data):
+def handle(data,status):
     #data is a json object
     pass
 def clean():

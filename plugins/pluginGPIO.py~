@@ -26,7 +26,7 @@ def clean():
     for c in channels:
         GPIO.cleanup(channels)
 
-def handle(data,status): 
+def handle(data): 
     #if GPIO.input(channel_in)==GPIO.HIGH: 
     if GPIO.input(channel_in)==GPIO.LOW:
         GPIO.output(channel, GPIO.HIGH)
